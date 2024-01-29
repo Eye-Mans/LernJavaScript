@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // hampir sama dengan if else
+
+        /*
+            switch(ekspresi){
+                cara 'nilai 1'
+                    aksi 1
+                    [break;]
+                    case 'nilai 2'
+                    Aksi 2
+                    [break 2;]
+                    dafault:
+                        aksi: default
+                        [break;]
+            }
+
+        */
+    //    var angka = prompt('masukan angka')
+
+    //    if(angka == 1){
+    //     alert('anda memasukan angka 1');
+
+    //    } else if(angka == 2){
+    //     alert('anda memasukan angka 2')
+    //    }else if(angka == 3){
+    //     alert('anda memasukan angka 3')
+    //    }else{
+    //     alert('salah')
+    //    }
+
+        // parsenint untuk memaksa var yang nonstring jadi string
+
+//     var angka = (parseInt(prompt('masukan nomor')))
+
+// if(angka === 1){
+//  alert('anda memasukan angka 1');
+
+// } else if(angka === 2){
+//  alert('anda memasukan angka 2')
+// }else if(angka === 3){
+//  alert('anda memasukan angka 3')
+// }else{
+//  alert('salah')
+// }
+
+    // var angka = (prompt('masukan nomor'))
+    // switch(angka){
+    //     case '1': 
+    //         alert('1')
+    //         break;
+    //     case '2':
+    //         alert('2')
+    //         break;
+    //     case '3':
+    //         alert('3')
+    //         break;
+    //     default:
+    //         alert('salah');
+    //         break;
+    // }
+
+    var item = prompt('masukan mobil yang ingin di cek \navanza, pajero, suzuki, angkot, mobil pickup, hotwil')
+    switch(item){
+        case 'avanza':
+        case 'pajero':
+        case 'suzuki':
+            alert('masih bekerja')
+        break;
+        case 'angkot':
+        case 'mobil pickup':
+            alert('rusak')
+        break;
+        case 'hotwil':
+            alert('Apaan ni?')
+            alert('BUKAN MOBIL!')
+        break;
+        default:
+            alert('apaan si gak jelas')
+        break;
+    }
+    </script>
+</body>
+</html>

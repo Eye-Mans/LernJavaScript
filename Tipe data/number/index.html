@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hola</h1>
+
+    <script>
+        /*
+        tipe data number
+        didalam tipe data number itu bilanganya floating point (bilangan pecahan) dan ukuran 
+        angka yg bisa di tampung itu 64 - bit.
+        */
+
+        // tanpa desimal (integer) (15 digit)
+        var i = 999999999999999;
+        console.log(i)
+        // jika lebih dari 15 digit maka akan di buletin
+        var o = 9999999999999999;
+        console.log(o)
+        // angka desimal (maksimal 17 digit)
+        var $k = 12.6799;
+        console.log($k)
+        var $s = 20.00;
+        console.log($s)
+        var $o = 9999999999999999;
+        console.log($o)
+        // terkadang tidak sesuai dengan kita harapkan
+        let e= 0.3 + 0.7;
+        console.log(e)
+        /*ada angka spesial dalam JS
+        infinity
+        -infinity
+        NaN
+        */
+    //    infinity terjadi ketika bilangan positif / 0
+        var z= 2 /0;
+    //  infinity terjadi ketika bilangan negatif / 0
+        var v= -10 /0;
+    //  NaN terjadi 0/0
+        var f= 0 /0;
+    console.log(z)
+    console.log(v)
+    console.log(f)
+    </script>
+</body>
+</html>
